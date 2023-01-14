@@ -1,9 +1,13 @@
+html {
+    scroll-snap-type: y mandatory;
+  }
 body {
     background: linear-gradient(45deg, #000000, #353333, #242020, #000000);
     background-size: 250% 250%;
     animation: gradient 20s ease infinite;
     height: 100vh;
 }
+
 
 @keyframes gradient {
     0% {
@@ -36,6 +40,7 @@ body {
 
 .linktir{
     box-sizing: border-box;
+    scroll-snap-align: start;
     width: 100%;
     padding: 80px 60px 60px 60px;
     min-height: 100vh;
