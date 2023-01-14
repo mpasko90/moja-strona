@@ -33,3 +33,19 @@ body {
     font-size: 36px;
     color: white;
 }
+
+.linktir{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 80px 60px 60px 60px;
+    min-height: 100vh;
+    font-size:2em;
+    font-weight:700;
+  }
+  
+#about{
+    background-color: red;
+}
+#contact{
+    background-color: blue;
+}
