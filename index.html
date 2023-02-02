@@ -14,100 +14,917 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Tworzenie Stron Internetowych i Naprawa Komputerów Wrocław - Profesjonalne usługi IT. Projektuję i naprawiam strony internetowe oraz komputery i laptopy.">
     <title>Tworzenie Stron Internetowych i Naprawa Komputerów Wrocław</title>
+    <meta name="description"
+        content="Naprawa Komputerów i Tworzenie Stron Internetowych Wrocław - Profesjonalne usługi IT. Projektuję i naprawiam strony internetowe oraz komputery i laptopy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/pc.ico">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body>
-    <!-- Nawigacja -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-info">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Logo</a> <!-- Logo w nawigacji -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span> <!-- Button w menu -->
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <!-- Lista sekcji -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-end">
-                    <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="#main">Główna</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="#section2">O mnie</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="#section3">Kontakt</a>
-                    </li>
-                </ul>
-                <!-- Lista sekcji koniec -->
+<body class="font text-white" data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+    <div class="container-flex">
+
+        <!-- Nawigacja -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-glass">
+            <div class="container">
+                <div class="btn-group" role="group">
+                    <a class="btn btn-dark btn-outline-warning radius-0 heartbeat" href="tel:+48713458121"><i
+                            class="fa-solid fa-phone"></i></a>
+                    <a class="btn btn-dark btn-outline-warning radius-0 heartbeat" href="mailto:kontakt@paskomichal.pl">
+                        <i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <!-- Logo w nawigacji -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!-- Button w menu -->
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- Lista sekcji -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-end">
+                        <li class="nav-item mx-3 active">
+                            <a class="nav-link" aria-current="page" href="#main">Strona Główna</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" aria-current="page" href="#section2">Tworzenie stron internetowych</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link mx-3" aria-current="page" href="#section3">Pomoc komputerowa</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link mx-3" aria-current="page" href="#section4">Kontakt</a>
+                        </li>
+                    </ul>
+                    <!-- Lista sekcji koniec -->
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- Nawigacja - koniec -->
-    <!-- Sekcja 1 - strona główna -->
-    <section id="main" class="linktir">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="position-absolute top-50 start-50 translate-middle text-center p-md-5 bg">
-                    <img src="/img/face.webp" class="face img-fluid mt-4 rounded-circle" alt="Michał Paśko"
-                        width="200px" height="199px">
-                    <h1 class="my-3">MICHAŁ PAŚKO</h1>
-                    <h2>Pogotowie komputerowe</h2>
-                    <div class="row">
-                        <div class="col-12 col-md-6 my-4">
-                            <h3>Tworzenie stron internetowych:</h3>
-                            <p>
-                                <i class="fa-brands fa-html5 p-1" title="HTML5"></i>
-                                <i class="fa-brands fa-css3-alt p-1" title="CSS3"></i>
-                                <i class="fa-brands fa-js p-1" title="JS"></i>
-                                <i class="fa-brands fa-bootstrap p-1" title="BOOTSTRAP"></i>
-                                <i class="fa-brands fa-magento p-1" title="MAGENTO"></i>
-                                <i class="fa-brands fa-wordpress p-1" title="WORDPRESS"></i>
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-6 my-4">
-                            <h3>Sociale:</h3>
-                            <p>
-                                <a href="https://www.linkedin.com/in/micha%C5%82-pa%C5%9Bko-1875891b8/"
-                                    aria-label="Michał Paśko LinkedIn" target="_blank"><i
-                                        class="fa-brands fa-linkedin p-1"></i></a>
-                                <a href="https://github.com/mpasko90" aria-label="Michał Paśko GitHub"
-                                    target="_blank"><i class="fa-brands fa-github p-1"></i></a>
-                            </p>
-                        </div>
+        </nav>
+        <!-- Nawigacja - koniec -->
+        <section id="main" class="linktir">
+            <div class="container d-flex justify-content-center align-items-center p-0">
+                <div class="row">
+                    <div class="col-12 col-lg-7 text-center text-lg-start">
+                        <h1 class="display-2 t-contrast tracking-in-expand">Michał Paśko</h1>
+                        <h2 class="display-6 t-contrast text-focus-in">Tworzenie stron internetowych, pogotowie komputerowe Wrocław
+                        </h2>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 mx-auto mb-5">
-                            <a class="btn btn-dark" href="mailto:kontakt@paskomichal.pl">
-                                kontakt@paskomichal.pl</a>
+                    <div class="col-12 col-lg-5 mt-4 my-lg-auto text-center">
+                        <div class="btn-group-vertical btn-group-lg" role="group">
+                            <a class="btn btn-dark btn-outline-warning p-3 radius-0 bg-glass" aria-current="page"
+                                href="#section2" role="button">Tworzenie stron</a>
+                            <a class="btn btn-dark btn-outline-warning p-3 radius-0 bg-glass" aria-current="page"
+                                href="#section3" role="button">Pomoc komputerowa</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Sekcja 1 - koniec -->
-    <!-- Sekcja 2 -->
-    <section id="section2" class="linktir">
+        </section>
+        <!-- Sekcja 1 - koniec -->
+        <!-- Sekcja 2 -->
+        <section id="section2" class="linktir">
+            <div class="container my-auto">
+                <div id="carouselSection2" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100">
+                                <div class="accordion accordion-flush mx-auto" id="acc-sec2-1">
 
-    </section>
-    <!-- Sekcja 2 koniec -->
-    <!-- Sekcja 3 -->
-    <section id="section3" class="linktir">
-        <div class="container-flex w-100">
-            <div class="row h-50 w-100 d-flex" style="background-color: yellow;">
-                <p>asda</p>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-1-1"
+                                                aria-expanded="false" aria-controls="collapse-2-1-1">
+                                                <h1 class="h5">Tworzenie stron WWW - technologie </h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-1-1" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-1" data-bs-parent="#acc-sec2-1">
+                                            <div class="accordion-body">
+
+                                                <ul class="list-group list-group-flush text-center">
+                                                    <li class="list-group-item"><i class="fa-brands fa-html5"
+                                                            title="HTML5">
+                                                            HTML5</i></li>
+                                                    <li class="list-group-item"><i class="fa-brands fa-css3-alt"
+                                                            title="CSS3">
+                                                            CSS3</i></li>
+                                                    <li class="list-group-item"><i class="fa-brands fa-js" title="JS">
+                                                            JavaScript</i></li>
+                                                    <li class="list-group-item"><i class="fa-brands fa-bootstrap"
+                                                            title="BOOTSTRAP">
+                                                            Bootstrap 5</i></li>
+                                                    <li class="list-group-item"><i class="fa-brands fa-magento"
+                                                            title="MAGENTO">
+                                                            Magento</i></li>
+                                                    <li class="list-group-item"><i class="fa-brands fa-wordpress"
+                                                            title="WORDPRESS">
+                                                            Wordpress</i></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-1-2"
+                                                aria-expanded="false" aria-controls="collapse-2-1-2">
+                                                <p class="h5">Projektowanie stron internetowych - cena</p>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-1-2" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-2" data-bs-parent="#acc-sec2-1">
+                                            <div class="accordion-body">Tutaj wszystko zależy od tego, jak duża i
+                                                rozbudowana będzie
+                                                Twoja
+                                                strona internetowa. Cena stworzenia sklepu internetowego będzie z
+                                                pewnością
+                                                wyższa,
+                                                niż
+                                                zaprojektowanie graficznej strony internetowej.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-1-3"
+                                                aria-expanded="false" aria-controls="collapse-2-1-3">
+                                                <h1 class="h5">Optymalizacja istniejącej strony WWW</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-1-3" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-3" data-bs-parent="#acc-sec2-1">
+                                            <div class="accordion-body">
+                                                <p>Obecnie około 70% ruchu w internecie pochodzi z urządzeń mobilnych.
+                                                    Masz
+                                                    własną
+                                                    stronę internetową ale nie wygląda ona zbyt dobrze na telefonie lub
+                                                    długo się
+                                                    ładuje?</p>
+                                                <p><a type="button" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal"
+                                                        class="btn  btn-warning btn-sm">Napisz lub zadzwoń</a> -
+                                                    sprawdzę
+                                                    co można poprawić na Twojej
+                                                    stronie oraz przedstawię
+                                                    ofertę strony internetowej.</p>
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content popup">
+                                                            <!-- <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Kontakt</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div> -->
+                                                            <div class="modal-body mx-auto">
+                                                                <div class="btn-group-vertical btn-group-lg"
+                                                                    role="group">
+                                                                    <a class="btn btn-dark btn-outline-warning"
+                                                                        href="tel:+48713458121"><i
+                                                                            class="fa-solid fa-phone"></i>
+                                                                        +48 71
+                                                                        345-81-21</a>
+                                                                    <a class="btn btn-dark btn-outline-warning"
+                                                                        href="mailto:kontakt@paskomichal.pl">
+                                                                        <i class="fa-solid fa-envelope"></i>
+                                                                        kontakt@paskomichal.pl</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-1-4"
+                                                aria-expanded="false" aria-controls="collapse-2-1-4">
+                                                <p class="h5">Budowanie stron internetowych - Masz już pomysł?</p>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-1-4" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-4" data-bs-parent="#acc-sec2-1">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Każdemu klientowi, stronę internetową mogę przygotować według jego
+                                                    własnego pomysłu.
+                                                    Jeżeli masz już swój własny projekt strony lub sam pomysł, opisz go
+                                                    i <a href="mailto:kontakt@paskomichal.pl">wyślj maila</a> z
+                                                    zapytaniem o wycenę usługi tworzenia stron.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-1-5"
+                                                aria-expanded="false" aria-controls="collapse-2-1-5">
+                                                <h1 class="h5">Nie wiesz od czego zacząć tworzenie strony?</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-1-5" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-5" data-bs-parent="#acc-sec2-1">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Zrobienie nowej strony internetowej rozpoczynamy od projektu strony.
+                                                    Jeśli jeszcze nie masz swojej
+                                                    strony
+                                                    internetowej i brakuje Ci pomysłu, pokażę, jak wyglądają
+                                                    profesjonalne strony internetowe. <a
+                                                        href="tel:+48713458121">Zadzwoń</a> i zapytaj o darmową
+                                                    konsultację.
+
+                                                    Dokładam wszelkich starań aby prace nad Twoją stroną internetową
+                                                    przebiegały sprawnie.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="accordion accordion-flush mx-auto" id="acc-sec2-2">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-b1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-2-1"
+                                                aria-expanded="false" aria-controls="collapse-2-2-1">
+                                                <h1 class="h5">Responsywne strony WWW</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-2-1" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-b1" data-bs-parent="#acc-sec2-2">
+                                            <div class="accordion-body">Responsywne strony internetowe to strony, które
+                                                automatycznie dostosowują swój wygląd i rozmieszczenie elementów do
+                                                różnych rozmiarów ekranów, w tym urządzeń mobilnych, tabletów i
+                                                komputerów. Dzięki temu użytkownicy otrzymują doskonałe wrażenia z
+                                                korzystania ze strony niezależnie od tego, jakie urządzenie
+                                                wykorzystują.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-b2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-2-2"
+                                                aria-expanded="false" aria-controls="collapse-2-2-2">
+                                                <h1 class="h5">Profesjonalne strony internetowe Wrocław</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-2-2" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-b2" data-bs-parent="#acc-sec2-2">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Wrocław strony internetowe. Wrocław to miasto w którym mieszkam i
+                                                    pracuję.
+                                                    Nowoczesne strony internetowe wymagają konsultacji.
+                                                    Proces tworzenia strony możemy zacząć więc od spotkania na którym
+                                                    omówimy jakie kroki należy podjąć aby uruchomić stronę internetową.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-b3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-2-3"
+                                                aria-expanded="false" aria-controls="collapse-2-2-3">
+                                                <p class="h5">Strony internetowe Wordpress</p>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-2-3" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-b3" data-bs-parent="#acc-sec2-2">
+                                            <div class="accordion-body">
+                                                <p>Projektowanie stron Wordpress, plusy:</p>
+                                                <ul>
+                                                    <li>łatwy system zarządzania stroną</li>
+                                                    <li>prosta do modyfikacji zawartość strony internetowej</li>
+                                                    <li>bardzo dobre pozycjonowanie stron internetowych</li>
+                                                    <li>profesjonalna strona firmy</li>
+                                                    <li>utrzymanie strony internetowej może kosztować tyle co nic</li>
+                                                    <li>łatwa i szybka implementacja strony</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <p class="accordion-header" id="acc-s2-b4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-2-4"
+                                                aria-expanded="false" aria-controls="collapse-2-2-4">
+                                                <p class="h5">Sklepy internetowe WooCommerce</p>
+                                            </button>
+                                        </p>
+                                        <div id="collapse-2-2-4" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-b4" data-bs-parent="#acc-sec2-2">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Wordpress oferuje możliwość stworzenia prostego w obsłudze sklepu
+                                                    internetowego WooCommerce. Jest to strona internetowa dysponująca
+                                                    możliwością dodawania produktów, przetwarzania płatności, integracji
+                                                    z
+                                                    wieloma platformami płatniczymi i wiele innych. Sklep internetowy
+                                                    WooCommerce jest
+                                                    popularny ze względu na swoją prostotę i elastyczność, a także na
+                                                    fakt, że jest bezpłatny i pozwala w łatwy sposób zarządzać stroną
+                                                    internetową.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-b5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-2-5"
+                                                aria-expanded="false" aria-controls="collapse-2-2-5">
+                                                <p class="h5">
+                                                    Firmowa strona internetowa
+                                                </p>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-2-5" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-b5" data-bs-parent="#acc-sec2-2">
+                                            <div class="accordion-body">
+                                                <p>Strony internetowe Wordpress to świetny sposób aby skrócić czas
+                                                    realizacji strony internetowej. Dodatkowo wygląd strony internetowej
+                                                    będzie
+                                                    idealnie pasował na każdy ekran.</p>
+                                                <p>Po odpowiednim skonfigurowaniu, administracją strony internetowej
+                                                    zajmiesz się
+                                                    sam. Optymalizacja stron to kilka kliknięć. <b>0zł</b> - tyle
+                                                    kosztuje strona w późniejszym utrzymaniu.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="accordion accordion-flush mx-auto" id="acc-sec2-3">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-c1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-3-1"
+                                                aria-expanded="false" aria-controls="collapse-2-3-1">
+                                                <h1 class="h5">Serwis komputerowy Wrocław</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-3-1" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-c1" data-bs-parent="#acc-sec2-3">
+                                            <div class="accordion-body">
+                                                <p>Jeśli szukasz perfekcyjnego serwisu sprzętu komputerowego, jesteś we
+                                                    właściwym
+                                                    miejscu.
+                                                    Oferuję
+                                                    szeroki zakres usług informatycznych, od naprawy komputerów i
+                                                    laptopów po tworzenie
+                                                    stron
+                                                    internetowych. Jestem w stanie pomóc każdemu klientowi szukającemu
+                                                    rozwiązania
+                                                    wszelkich
+                                                    problemów związanych ze sprzętem i oprogramowaniem.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-c2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-3-2"
+                                                aria-expanded="false" aria-controls="collapse-2-3-2">
+                                                <h1 class="h5">Skuteczność strony internetowej</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-3-2" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-c2" data-bs-parent="#acc-sec2-3">
+                                            <div class="accordion-body">
+                                                <p>Dzięki stronom internetowym Twoja firma może zyskać jeszcze więcej
+                                                    klientów. Strony internetowe tworzymy również z myślą o nich.
+                                                    Projekt graficzny strony, pomoc w rozwijaniu stron internetowych,
+                                                    obsługa stron. Napisz, czego potrzebuje Twoja strona firmowa.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-c3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-3-3"
+                                                aria-expanded="false" aria-controls="collapse-2-3-3">
+                                                <h1 class="h5">Skuteczna naprawa komputerów stacjonarnych</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-3-3" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-c3" data-bs-parent="#acc-sec2-3">
+                                            <div class="accordion-body">
+                                                <p>Zapewnij swojemu komputerowi stacjonarnemu profesjonalną naprawę -
+                                                    nasza ekipa
+                                                    specjalistów
+                                                    pomoże Ci rozwiązać wszelkie problemy. Z nami możesz mieć pewność,
+                                                    że Twój sprzęt
+                                                    będzie
+                                                    działać płynnie i efektywnie.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-c4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-3-4"
+                                                aria-expanded="false" aria-controls="collapse-2-3-4">
+                                                <h1 class="h5">Profesjonalna modernizacja komputera</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-3-4" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-c4" data-bs-parent="#acc-sec2-3">
+                                            <div class="accordion-body">
+                                                <p>Oferujemy profesjonalne usługi, które pomogą Ci odnowić i
+                                                    unowocześnić Twój sprzęt.
+                                                    Nasze
+                                                    doświadczenie i wiedza pozwala nam dostosować nasze usługi do
+                                                    indywidualnych potrzeb
+                                                    każdego
+                                                    klienta.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s2-c5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-2-3-5"
+                                                aria-expanded="false" aria-controls="collapse-2-3-5">
+                                                <p class="h5">
+                                                    Czy agencja projektowania stron jest niezbędna?
+                                                </p>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-2-3-5" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s2-c5" data-bs-parent="#acc-sec2-3">
+                                            <div class="accordion-body">Do wykonania strony internetowej nie zawsze
+                                                będzie konieczna obsługa ze strony agencji projektowania stron.
+                                                Oczywiście duże portale internetowe będą wymagały większych zespołów aby
+                                                prace nad stroną internetową przebiegały szybko.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSection2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSection2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
             </div>
-            <div class="row h-50 w-100 d-flex" style="background-color: red;">
-                <p>asda</p>
+        </section>
+        <!-- Sekcja 2 koniec -->
+        <!-- Sekcja 3 -->
+        <section id="section3" class="linktir">
+            <div class="container my-auto">
+                <div id="carouselSection3" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100">
+                                <div class="accordion accordion-flush mx-auto" id="acc-sec3-1">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-1-1"
+                                                aria-expanded="false" aria-controls="collapse-3-1-1">
+                                                <h1 class="h5">Serwis komputerowy Wrocław</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-1-1" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-1" data-bs-parent="#acc-sec3-1">
+                                            <div class="accordion-body">
+                                                <p>Jeśli szukasz perfekcyjnego serwisu sprzętu komputerowego, jesteś we
+                                                    właściwym
+                                                    miejscu.
+                                                    Oferuję
+                                                    szeroki zakres usług informatycznych, od naprawy komputerów i
+                                                    laptopów po tworzenie
+                                                    stron
+                                                    internetowych. Jestem w stanie pomóc każdemu klientowi szukającemu
+                                                    rozwiązania
+                                                    wszelkich
+                                                    problemów związanych ze sprzętem i oprogramowaniem.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-1-2"
+                                                aria-expanded="false" aria-controls="collapse-3-1-2">
+                                                <h1 class="h5">Obsługa informatyczna firm</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-1-2" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-2" data-bs-parent="#acc-sec3-1">
+                                            <div class="accordion-body">
+                                                <p>Z moim doświadczeniem i wiedzą, jestem w stanie zapewnić Ci
+                                                    niezawodną i skuteczną
+                                                    obsługę informatyczną, tak aby Twój biznes mógł funkcjonować
+                                                    bezproblemowo. <a href="#section4">Skontaktuj się</a> ze
+                                                    mną już dziś i pozwól abym zadbał o Twoje informatyczne potrzeby.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-1-3"
+                                                aria-expanded="false" aria-controls="collapse-3-1-3">
+                                                <h1 class="h5">Skuteczna naprawa komputerów stacjonarnych</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-1-3" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-3" data-bs-parent="#acc-sec3-1">
+                                            <div class="accordion-body">
+                                                <p>Zapewnij swojemu komputerowi stacjonarnemu profesjonalną naprawę -
+                                                    nasza ekipa
+                                                    specjalistów
+                                                    pomoże Ci rozwiązać wszelkie problemy. Z nami możesz mieć pewność,
+                                                    że Twój sprzęt
+                                                    będzie
+                                                    działać płynnie i efektywnie.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-1-4"
+                                                aria-expanded="false" aria-controls="collapse-3-1-4">
+                                                <h1 class="h5">Profesjonalna modernizacja komputera</h1>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-1-4" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-4" data-bs-parent="#acc-sec3-1">
+                                            <div class="accordion-body">
+                                                <p>Oferujemy profesjonalne usługi, które pomogą Ci odnowić i
+                                                    unowocześnić Twój sprzęt.
+                                                    Nasze
+                                                    doświadczenie i wiedza pozwala nam dostosować nasze usługi do
+                                                    indywidualnych potrzeb
+                                                    każdego
+                                                    klienta.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-1-5"
+                                                aria-expanded="false" aria-controls="collapse-3-1-5">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-1-5" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-5" data-bs-parent="#acc-sec3-1">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the third item's accordion
+                                                body. Nothing more exciting
+                                                happening here in terms of content, but just filling up the space to
+                                                make it
+                                                look, at least at first
+                                                glance, a bit more representative of how this would look in a real-world
+                                                application.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="accordion accordion-flush mx-auto" id="acc-sec3-2">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-b1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-2-1"
+                                                aria-expanded="false" aria-controls="collapse-3-2-1">
+                                                Accordion Item #1
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-2-1" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-b1" data-bs-parent="#acc-sec3-2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the first item's accordion
+                                                body.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-b2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-2-2"
+                                                aria-expanded="false" aria-controls="collapse-3-2-2">
+                                                Accordion Item #2
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-2-2" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-b2" data-bs-parent="#acc-sec3-2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the second item's accordion
+                                                body. Let's imagine this being
+                                                filled with some actual content.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-b3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-2-3"
+                                                aria-expanded="false" aria-controls="collapse-3-2-3">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-2-3" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-b3" data-bs-parent="#acc-sec3-2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the third item's accordion
+                                                body. Nothing more exciting
+                                                happening here in terms of content, but just filling up the space to
+                                                make it
+                                                look, at least at first
+                                                glance, a bit more representative of how this would look in a real-world
+                                                application.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-b4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-2-4"
+                                                aria-expanded="false" aria-controls="collapse-3-2-4">
+                                                Accordion Item #2
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-2-4" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-b4" data-bs-parent="#acc-sec3-2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the second item's accordion
+                                                body. Let's imagine this being
+                                                filled with some actual content.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-b5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-2-5"
+                                                aria-expanded="false" aria-controls="collapse-3-2-5">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-2-5" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-b5" data-bs-parent="#acc-sec3-2">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the third item's accordion
+                                                body. Nothing more exciting
+                                                happening here in terms of content, but just filling up the space to
+                                                make it
+                                                look, at least at first
+                                                glance, a bit more representative of how this would look in a real-world
+                                                application.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="accordion accordion-flush mx-auto" id="acc-sec3-3">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-c1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-3-1"
+                                                aria-expanded="false" aria-controls="collapse-3-3-1">
+                                                Accordion Item #1
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-3-1" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-c1" data-bs-parent="#acc-sec3-3">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the first item's accordion
+                                                body.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-c2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-3-2"
+                                                aria-expanded="false" aria-controls="collapse-3-3-2">
+                                                Accordion Item #2
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-3-2" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-c2" data-bs-parent="#acc-sec3-3">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the second item's accordion
+                                                body. Let's imagine this being
+                                                filled with some actual content.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-c3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-3-3"
+                                                aria-expanded="false" aria-controls="collapse-3-3-3">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-3-3" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-c3" data-bs-parent="#acc-sec3-3">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the third item's accordion
+                                                body. Nothing more exciting
+                                                happening here in terms of content, but just filling up the space to
+                                                make it
+                                                look, at least at first
+                                                glance, a bit more representative of how this would look in a real-world
+                                                application.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-c4">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-3-4"
+                                                aria-expanded="false" aria-controls="collapse-3-3-4">
+                                                Accordion Item #2
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-3-4" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-c4" data-bs-parent="#acc-sec3-3">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the second item's accordion
+                                                body. Let's imagine this being
+                                                filled with some actual content.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="acc-s3-c5">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse-3-3-5"
+                                                aria-expanded="false" aria-controls="collapse-3-3-5">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-3-3-5" class="accordion-collapse collapse"
+                                            aria-labelledby="acc-s3-c5" data-bs-parent="#acc-sec3-3">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the
+                                                <code>.accordion-flush</code> class. This is the third item's accordion
+                                                body. Nothing more exciting
+                                                happening here in terms of content, but just filling up the space to
+                                                make it
+                                                look, at least at first
+                                                glance, a bit more representative of how this would look in a real-world
+                                                application.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSection3"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSection3"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Sekcja 3 koniec -->
+        <!-- Sekcja 4 start -->
+        <section id="section4" class="linktir">
+            <div class="container-fluid bg h-fit my-auto">
+                <div class="text-center">
+                    <img src="/img/face.webp" class="mw-200 img-fluid mt-4 rounded-circle" alt="Michał Paśko"
+                        width="200px" height="199px">
+                    <h1 class="my-3">MICHAŁ PAŚKO</h1>
+                    <h5>Projektowanie stron internetowych</h5>
+                    <h5>Usługi informatyczne zdalne</h5>
+                    <h5>Naprawa komputerów Wrocław</h5>
+                    <p><a class="btn btn-dark btn-outline-warning my-1" href="tel:+48713458121"><i
+                                class="fa-solid fa-phone"></i> +48 71 345-81-21</a></p>
+                    <p>
+                        <a class="btn btn-dark btn-outline-warning my-1" href="mailto:kontakt@paskomichal.pl">
+                            <i class="fa-solid fa-envelope"></i> kontakt@paskomichal.pl</a>
+                    </p>
+                    <h3>Znajdziesz mnie na:</h3>
+                    <p class="d-inline-flex justify-content-center align-items-center">
+                        <a href="https://www.linkedin.com/in/micha%C5%82-pa%C5%9Bko-1875891b8/"
+                            aria-label="Michał Paśko LinkedIn" target="_blank"><i
+                                class="fa-brands fa-linkedin p-1"></i></a>
+                        <a href="https://github.com/mpasko90" aria-label="Michał Paśko GitHub" target="_blank"><i
+                                class="fa-brands fa-github p-1"></i></a>
+                        <a href="https://fixly.pl/profil/TvZlbgE4" aria-label="Michał Paśko Fixly" target="_blank"
+                            class="my-auto fa-brands"><img src="/img/fixly.svg" alt="" height="88px"></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Sekcja 4 koniec -->
+
+        <!-- fixed bottom -->
+        <div class="fixed-bottom text-end">
+            <div class="btn-group-vertical" role="group">
+                <a class="btn btn-outline-light radius-0  text-start bg-glass" href="tel:+48713458121"><i
+                        class="fa-solid fa-phone"></i> +48 71
+                    345-81-21</a>
+                <a class="btn btn-outline-light radius-0 text-start bg-glass" href="mailto:kontakt@paskomichal.pl">
+                    <i class="fa-solid fa-envelope"></i> kontakt@paskomichal.pl</a>
             </div>
         </div>
-    </section>
-    <!-- Sekcja 3 koniec -->
+    </div>
+    <!-- fixed bottom end -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

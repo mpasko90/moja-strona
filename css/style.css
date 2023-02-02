@@ -1,30 +1,22 @@
+@media (max-width: 575.98px) {
+    .fa-brands {
+        font-size: 26px !important;
+    }
+}
+
+
 html {
     scroll-snap-type: y mandatory;
-  }
-body {
-    background: linear-gradient(45deg, #000000, #353333, #242020, #000000);
-    background-size: 250% 250%;
-    animation: gradient 20s ease infinite;
-    height: 100vh;
+    scroll-snap-stop: always;
+
 }
 
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.font {
+    font-family: 'Solitreo', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 
-
-.face {
+.mw-200 {
     max-width: 200px;
 }
 
@@ -33,24 +25,274 @@ body {
     color: silver;
 }
 
-.fa-brands {
-    font-size: 36px;
-    color: white;
+.mw-500 {
+    max-width: 500px !important;
 }
 
-.linktir{
+.bg-glass {
+    background: rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 8px 32px 0 rgba(148, 204, 45, 0.5) !important;
+    backdrop-filter: blur(3px) !important;
+    -webkit-backdrop-filter: blur(3px) !important;
+}
+
+.t-contrast {
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+}
+
+.fa-brands {
+    font-size: 36px;
+    color: black;
+    transition: transform 0.3s;
+}
+
+.fa-brands:hover {
+    transform: translateY(-5px);
+}
+
+.linktir {
+    display: flex;
     box-sizing: border-box;
     scroll-snap-align: start;
     width: 100%;
-    padding: 80px 60px 60px 60px;
+    /* padding: 80px 0px 60px 0px; */
     min-height: 100vh;
-    font-size:2em;
-    font-weight:700;
-  }
-  
-#section2{
-    background-color: red;
 }
-#section3{
-    background-color: blue;
+
+#main {
+    background-image: url(/img/pcfix.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 {
+    background-image: url(/img/webcreate.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 {
+    background-image: url(/img/broken-pc2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section4 {
+    background: linear-gradient(45deg, #000000, #353333, #242020, #000000);
+    background-size: 250% 250%;
+    animation: gradient 20s ease infinite;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;
+    color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;
+}
+
+.carousel-control-prev {
+    justify-content: start !important;
+    max-width: fit-content;
+}
+
+.carousel-control-next {
+    justify-content: end !important;
+    max-width: fit-content;
+}
+
+.h-fit {
+    height: fit-content !important;
+}
+
+.radius-0 {
+    border-radius: 0 !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/img/left.svg) !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/img/right.svg) !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 50%;
+    border: solid 1px white;
+
+}
+
+.accordion {
+    max-width: 500px;
+}
+
+.accordion-body {
+    list-style-type: none;
+}
+
+.popup {
+    background-color: transparent !important;
+    border: 0 !important;
+
+}
+
+/* Animacje */
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.text-focus-in {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.heartbeat {
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+/* Keyframes */
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
 }
