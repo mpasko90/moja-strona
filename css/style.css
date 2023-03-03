@@ -4,13 +4,6 @@
     }
 }
 
-
-html {
-    scroll-snap-type: y mandatory;
-    scroll-snap-stop: always;
-
-}
-
 .font {
     font-family: 'Solitreo', cursive;
     font-family: 'Varela Round', sans-serif;
@@ -25,6 +18,11 @@ html {
     color: silver;
 }
 
+.cta-slide {
+    -webkit-animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 .mw-500 {
     max-width: 500px !important;
 }
@@ -34,6 +32,9 @@ html {
     box-shadow: 0 8px 32px 0 rgba(148, 204, 45, 0.5) !important;
     backdrop-filter: blur(3px) !important;
     -webkit-backdrop-filter: blur(3px) !important;
+}
+.bg-glass:hover{
+    color: white !important;
 }
 
 .t-contrast {
@@ -53,9 +54,7 @@ html {
 .linktir {
     display: flex;
     box-sizing: border-box;
-    scroll-snap-align: start;
-    width: 100%;
-    /* padding: 80px 0px 60px 0px; */
+    width: 100vw;
     min-height: 100vh;
 }
 
@@ -89,7 +88,9 @@ html {
 .nav-link {
     color: white !important;
 }
-
+.navbar-toggler{
+    background-color: white !important;
+}
 .nav-link.active {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
     --bs-border-opacity: 1;
@@ -142,6 +143,11 @@ html {
     background-color: transparent !important;
     border: 0 !important;
 
+}
+
+.btn-outline-light:hover {
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
 }
 
 /* Animacje */
@@ -296,3 +302,30 @@ html {
         animation-timing-function: ease-out;
     }
 }
+
+@-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  

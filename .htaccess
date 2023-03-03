@@ -1,0 +1,9 @@
+### H88_WAF_START - Do not remove this line, WAF plugin will automatically update it
+php_value auto_prepend_file /var/www/html/waf/waf.php
+### H88_WAF_STOP
+AddHandler application/x-httpd-php74 php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.html?url=$1[QSA,L]
