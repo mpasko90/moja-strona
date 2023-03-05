@@ -1,4 +1,4 @@
-const urlPageTitle = "Tworzenie Stron Internetowych i Naprawa Komputerów Wrocław";
+const urlPageTitle = "Tworzenie stron internetowych i pogotowie komputerowe we Wrocławiu";
 
 // create document click that watches the nav links only
 document.addEventListener("click", (e) => {
@@ -15,27 +15,32 @@ const urlRoutes = {
     404: {
         template: "/templates/404.html",
         title: "404 | " + urlPageTitle,
-        description: "Page not found",
+        description: "Podana strona nie została odnaleziona",
     },
     "/": {
         template: "/templates/main.html",
-        title: "Home | " + urlPageTitle,
-        description: "Naprawa Komputerów i Tworzenie Stron Internetowych Wrocław - Profesjonalne usługi IT. Projektuję i naprawiam strony internetowe oraz komputery i laptopy.",
+        title: urlPageTitle,
+        description: "Szukasz profesjonalnej firmy zajmującej się tworzeniem stron internetowych i pomocą komputerową we Wrocławiu? Zapoznaj się z naszym portfolio i skontaktuj się z nami!",
     },
     "/tworzenie-stron-internetowych": {
         template: "/templates/tworzenie-stron-internetowych.html",
-        title: "About Us | " + urlPageTitle,
-        description: "This is the about page",
+        title: "Tworzenie stron internetowych we Wrocławiu - profesjonalne usługi.",
+        description: "Oferujemy tworzenie stron internetowych we Wrocławiu na najwyższym poziomie. Zaprojektujemy dla Ciebie nowoczesną, responsywną i funkcjonalną stronę internetową.",
     },
     "/pogotowie-komputerowe": {
         template: "/templates/pogotowie-komputerowe.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Pogotowie komputerowe we Wrocławiu - szybka pomoc",
+        description: "Masz problem z komputerem? Nie martw się! Nasze pogotowie komputerowe we Wrocławiu przyjedzie do Ciebie i naprawi usterkę. Zadzwoń teraz!",
     },
     "/kontakt": {
         template: "/templates/kontakt.html",
-        title: "Contact Us | " + urlPageTitle,
-        description: "This is the contact page",
+        title: "Kontakt | " + urlPageTitle,
+        description: "Chcesz skorzystać z naszych usług lub masz pytania? Skontaktuj się z nami telefonicznie lub mailowo. Odpowiemy na wszystkie Twoje pytania.",
+    },
+    "/polityka-prywatnosci": {
+        template: "/templates/polityka-prywatnosci.html",
+        title: "Polityka prywatności | " + urlPageTitle,
+        description: "Zapoznaj się z naszą polityką prywatności i dowiedz się jak chronimy Twoje dane osobowe. Sprawdź jakie masz prawa w związku z korzystaniem z naszej strony internetowej i naszych usług: pogotowie komputerowe i tworzenie stron internetowych we Wrocławiu.",
     },
 };
 
