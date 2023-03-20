@@ -85,7 +85,9 @@
     background-size: 250% 250%;
     animation: gradient 20s ease infinite;
 }
-
+#section5{
+    padding-top: 65px;
+}
 .nav-link {
     color: white !important;
 }
@@ -99,7 +101,7 @@
     --bs-border-opacity: 1;
     border-color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;
     color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;
-}
+} */
 
 .carousel-control-prev {
     justify-content: start !important;
