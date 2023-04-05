@@ -1,11 +1,20 @@
 <section id="main" class="linktir">
-    <div class="container d-flex justify-content-center align-items-center p-0">
+    <div class="container my-auto">
         <div class="row">
             <div class="col-12 col-lg-7 text-center text-lg-start">
                 <h1 class="display-2 t-contrast tracking-in-expand">Michał Paśko</h1>
-                <h2 class="display-6 t-contrast text-focus-in">Tworzenie stron internetowych, pogotowie
-                    komputerowe Wrocław
+                <h2 class="display-6 t-contrast carousel" data-bs-ride="carousel" data-bs-touch="false">
+                    <div class="carousel-inner">
+                        <span class="carousel-item active" data-bs-interval="2000">Web Developer</span>
+                        <span class="carousel-item" data-bs-interval="2000">Informatyk</span>
+                        <span class="carousel-item" data-bs-interval="2000">Freelancer</span>
+                    </div>
                 </h2>
+                <p>Witaj na mojej stronie! Nazywam się Michał Paśko i jestem freelancerem specjalizującym się w
+                    tworzeniu stron internetowych oraz udzielaniu pomocy komputerowej.</p><p>Pierwszy swój komputer złożyłem
+                    ponad dwadzieścia lat temu i od tamtej pory zgłębiałem wiedzę na temat składania, modernizacji i
+                    naprawy komputerów.</p><p>Studiuję Informatykę oraz pracuję na pełny etat jako Frontend Developer
+                    w sklepach militaria.pl oraz military.pl.</p>
             </div>
             <div class="col-12 col-lg-5 mt-4 my-lg-auto text-center cta-slide">
                 <div class="btn-group-vertical btn-group-lg" role="group">
@@ -18,3 +27,13 @@
         </div>
     </div>
 </section>
+
+<script>
+    var carouselEl = document.querySelector('.carousel');
+    var carousel = new bootstrap.Carousel(carouselEl, {
+        interval: 2000,
+        pause: false,
+        ride: 'carousel',
+        touch: false
+    });
+</script>

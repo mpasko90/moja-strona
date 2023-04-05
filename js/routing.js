@@ -42,6 +42,11 @@ const urlRoutes = {
         title: "Polityka prywatności | " + urlPageTitle,
         description: "Zapoznaj się z naszą polityką prywatności i dowiedz się jak chronimy Twoje dane osobowe. Sprawdź jakie masz prawa w związku z korzystaniem z naszej strony internetowej i naszych usług: pogotowie komputerowe i tworzenie stron internetowych we Wrocławiu.",
     },
+    "/faq": {
+        template: "/templates/faq.html",
+        title: "Pytania i odpowiedzi | " + urlPageTitle,
+        description: "FAQ",
+    },
 };
 
 // create a function that watches the url and calls the urlLocationHandler
